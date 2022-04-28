@@ -26,7 +26,11 @@ http.listen(4000, () => {
 io.on("connection", (socket) => {
     console.log("Client Connected");
     socketMap.push(socket);
-    dataUpdate();
+
+    setInterval(() => {
+        // refresh data every 5sec
+        dataUpdate();
+    }, 5000);
 });
 
 async function dataUpdate() {
