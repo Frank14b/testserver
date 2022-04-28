@@ -10,3 +10,4 @@ ressources :
   - nodejs  
   - socketio
   - express
+  - axios
