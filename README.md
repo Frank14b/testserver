@@ -11,3 +11,4 @@ ressources :
   - socketio
   - express
   - axios
+  - charts data api : https://api.coingecko.com/api/v3/exchange_rates
